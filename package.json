@@ -2,8 +2,13 @@
   "name": "faunadb-auth",
   "version": "1.0.0",
   "description": "",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon ./src/index.ts"
+    "dev": "nodemon ./src/index.ts",
+    "build-ts": "tsc",
+    "postinstall": "npm run build-ts",
+    "start": "npm run serve",
+    "serve": "node src/index.js"
   },
   "keywords": [],
   "author": "",
