@@ -4,10 +4,10 @@
   "description": "",
   "main": "dist/server.js",
   "scripts": {
-    "dev": "nodemon ./src/index.ts",
+    "start": "nodemon ./src/index.ts",
     "build-ts": "tsc",
     "postinstall": "npm run build-ts",
-    "start": "npm run serve",
+    "dev": "npm run serve",
     "serve": "node ./dist/server.js"
   },
   "keywords": [],
