@@ -8,7 +8,7 @@
     "build-ts": "tsc",
     "postinstall": "npm run build-ts",
     "start": "npm run serve",
-    "serve": "node dist/server.js"
+    "serve": "node ./dist/server.js"
   },
   "keywords": [],
   "author": "",
